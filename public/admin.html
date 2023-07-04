@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+</head>
+<body>
+  <h1>Admin Panel</h1>
+
+  <div class="form-container">
+    <h2>Create Post</h2>
+    <form>
+      <input type="text" id="text" placeholder="Text" id="text">
+      <input type="text" id="eventName" placeholder="Event Name" id="eventName">
+      <input type="text" id="eventYear" placeholder="Event Year" id="eventYear">
+      <button type="button" id="storeButton">Create</button>
+    </form>
+  </div>
+
+  <br/>
+
+  <div class="form-container">
+    <h2>Update | Delete Post</h2>
+    <form>
+      <small>Digite para poder buscar as informacoes</small>
+      <input type="text" id="search" placeholder="Event Name" />
+      <button type="button" id="findButton">Find</button>
+    </form>
+    <hr/>
+    <form>
+      <input type="text" id="textUpdate" placeholder="Text" id="text">
+      <input type="text" id="eventNameUpdate" placeholder="Event Name" id="eventName">
+      <input type="text" id="eventYearUpdate" placeholder="Event Year" id="eventYear">
+      <button type="button" id="updateButton">Update</button>
+      <button type="button" id="deleteButton">Delete</button>
+    </form>
+  </div>
+  <br/>
+  <hr/>
+  <br/>
+  <div class="form-container">
+    <h2>Update Curiosity</h2>
+    <form>
+      <small>Digite para poder buscar as informacoes</small>
+      <input type="text" id="searchCurisity" placeholder="Title da curiosidade" />
+      <button type="button" id="findButtonCuriosity">Find</button>
+    </form>
+    <hr/>
+    <form>
+      <textarea style="height: 300px; width: 100%;" type="text" id="textCuriosity" placeholder="Text"></textarea>
+      <br/>
+      <textarea style="height: 150px; width: 100%;" id="titleCuriosity" placeholder="Title"></textarea>
+      <button type="button" id="updateButtonCurisity">Update</button>
+    </form>
+  </div>
+  <br/>
+  <hr/>
+  <br/>
+  <div class="form-container">
+    <h2>Add Admin User</h2>
+    <form>
+      <input type="text" id="adminMail" placeholder="E-mail">
+     
+      <button type="button" id="adminMailButton">Create</button>
+    </form>
+  </div>
+
+  <script src="./assets/js/bundle1.js"></script>
+</body>
+</html>
